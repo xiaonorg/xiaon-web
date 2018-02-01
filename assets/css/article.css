@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/*  文章页的样式 */
+.xy-article {
+  background-color: #fff;
+  margin: 0.5em 0;
+  white-space: normal;
+  word-break: break-all;
+  overflow: auto;
+}
+
+@media (min-width: 576px) {
+  .xy-article {
+    padding: 1em;
+  }
+}
+
+.xy-article-title {
+  border-bottom: 1px solid #e9eaec;
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+  flex-wrap: wrap;
+}
+
+.xy-article-title h1 {
+  font-size: 1.6em;
+  margin-right: 1em;
+}
+
+.xy-article-content {
+  padding-top: 1em;
+}
+
+.xy-article-content blockquote:not(:first-child) {
+  border-left: 4px solid #DDD;
+  background-color: #fff;
+}
+
+.xy-article-content blockquote {
+  background-color: #f8f8f9;
+  padding: 1em 0.5em;
+  text-indent: 1em;
+}
+
+.xy-article-content blockquote p {
+  margin-bottom: 0;
+}
+
+.xy-article-content h2 {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.xy-article-content h3 {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.xy-article-content h4 {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.xy-article-content h5 {
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.xy-article-content h6 {
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.xy-article-content p {
+  text-indent: 1em;
+}
+
+.xy-article-content pre {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.xy-article-content p img:not(:first-child) {
+  max-width: 100%;
+}
+
+.xy-article-content p img {
+  max-width: 100%;
+  margin-left: -1em;
+}
+
+/*  文章正文中的一级标题的样式*/
+.md-h1 {
+  margin-bottom: 0.5em;
+  border-left: 5px solid #45bcf9;
+}
+
+.md-h1 fieldset {
+  border-top: 1px solid #e9eaec;
+}
+
+.md-h1 legend {
+  width: auto;
+  padding: 0 10px 0 5px;
+  margin-bottom: 0;
+  line-height: 1.3em;
+}
